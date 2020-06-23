@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Allana</title>
 
+    <!-- Links to bootstrap JavaScript and CSS  -->
     <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/minty/bootstrap.min.css" rel="stylesheet" integrity="sha384-HqaYdAE26lgFCJsUF9TBdbZf7ygr9yPHtxtg37JshqVQi6CCAo6Qvwmgc5xclIiV" crossorigin="anonymous">
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -26,24 +27,33 @@
           </nav>
     </header>
 
+    <!-- Bootstrap code for a card that has a header and body section -->
     <div class="card text-white bg-info mb-3" style="max-width: 18rem;">
+        <!-- Header -->
         <div class="card-header">Contact Me</div>
         
+        <!-- Card Body -->
         <div class="card-body">
             <form>
+                <!-- This section allows a user to enter their name -->
                 <div class="form-group">
                     <label for="exampleInputName1">Name</label>
                     <input type="text" class="form-control">
-                  </div>
+                </div>
+
+                <!-- This section allows a user to enter an email address -->
                 <div class="form-group">
                   <label for="exampleInputEmail1">Email address</label>
                   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                 </div>
+
+                <!-- This section allows a user to enter a message -->
                 <div class="form-group">
                     <label for="exampleFormControlTextarea1">Message</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                   </div>
                 
+                  <!-- Submit button -->
                 <button type="submit" class="btn btn-primary">Submit</button>
               </form>
 
