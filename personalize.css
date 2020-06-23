@@ -1,3 +1,7 @@
 .navbar navbar-dark bg-dark{
     color: antiquewhite;
 }
+
+.row {
+    margin-top: 20px;
+}
