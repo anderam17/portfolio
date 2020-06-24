@@ -20,14 +20,31 @@
 <body>
 
     <!-- Nav bar with Page Title and Links to all other pages. This is found on all pages  -->
-    <header>
-        <nav class="navbar navbar-dark bg-dark">
-            <h1>Allana Anderson</h1>
-              <a href="index.html">About</a>
-              <a href="portfolio.html">Portfolio</a>
-              <a href="contact.html">Contact</a>
-          </nav>
-    </header>
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+      <div class="container-fluid">
+        <h1>Allana Anderson</h1>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">About Me</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Me</a>
+            </li>
+          </ul>
+        </div> 
+      </div>
+    </nav>
 
     <!-- Bootstrap code for a card that has a header and body section -->
     <div class="card contact text-white bg-info mb-3" style="max-width: 30rem;">

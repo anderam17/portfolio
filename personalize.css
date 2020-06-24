@@ -5,11 +5,14 @@ a {
     font-size: 25px;
 }
 
-.navbar-dark {
- background: olive;
+.navbar {
+ background: rgba(128, 128, 0, 0.521);
 }
 .contact {
     margin: 50px;
+}
+.row {
+    margin: 20px;
 }
 
 .card-header {

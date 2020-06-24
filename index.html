@@ -14,24 +14,39 @@
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-    <!-- ! for some reason, the css will not link  -->
-    <!-- ! Also I do not like how my container is centered and I want to fix that  -->
-    <!-- ! how do I get the underlines under the headers?  -->
+
     <!-- Link to my CSS  -->
     <link rel="stylesheet" type="text/css" href="personalize.css"/>
 </head>
 <body>
     <!-- Nav bar with Page Title and Links to all other pages. This is found on all pages  -->
-    <header>
-        <nav class="navbar navbar-dark bg-dark">
-            <h1>Allana Anderson</h1>
-              <a href="index.html">About</a>
-              <a href="portfolio.html">Portfolio</a>
-              <a href="contact.html">Contact</a>
-          </nav>
-    </header>
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+      <div class="container-fluid">
+        <h1>Allana Anderson</h1>
 
-    <!-- ! Card is WAY too big, make a margin above it  -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">About Me</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Me</a>
+            </li>
+          </ul>
+        </div> 
+      </div>
+    </nav>
+
+   
     <!-- Bootstrap code for three section card -->
   <div class="card contact" style="width: 75rem;">
     <div class="card-body">

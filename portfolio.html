@@ -8,109 +8,124 @@
     <!-- Links to bootstrap JavaScript and CSS  -->
     <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/lumen/bootstrap.min.css" rel="stylesheet" integrity="sha384-VMuWne6iwiifi8iEWNZMw8sDatgb6ntBpBIr67q0rZAyOQwfu/VKpnFntQrjxB5W" crossorigin="anonymous">
 
-
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-    <!-- *! for some reason, the css will not link  -->
-    <!-- *! Also I do not like how my container is centered and I want to fix that  -->
+    <!-- ! add alt tags, make media responsive, figure out why I cannot override nav-bar color, make read me -->
     <link rel="stylesheet" type="text/css" href="personalize.css"/>
 
 </head>
 <body>
     <!-- Nav bar with Page Title and Links to all other pages. This is found on all pages  -->
-    <header>
-        <nav class="navbar navbar-dark bg-dark">
-            <h1>Allana Anderson</h1>
-            <a href="index.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
-          </nav>
-    </header>
+    
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+      <div class="container-fluid">
+        <h1>Allana Anderson</h1>
 
-    <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
 
-        <!-- A grid of bootstrap cards within anohter card to keep everything organized -->
-        <div class="card" style="width: 50rem;">
-          <div class="card-body">
-            <!-- Title here -->
-            <h2 class="card-title">Portfolio</h2>
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">About Me</a>
+            </li>
 
-            <!-- Here is where the code for the inner grid begins  -->
-            <div class="row row-cols-1 row-cols-md-3">
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
 
-                <!-- Card with picture and caption #1 -->
-                <div class="col mb-4">
-                  <div class="card h-100">
-                    <img src="https:/via.placeholder.com/100" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                  </div>
-                </div>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Me</a>
+            </li>
+          </ul>
+        </div> 
+      </div>
+    </nav>
+    
 
-                <!-- Card with picture and caption #2 -->
-                <div class="col mb-3">
-                  <div class="card h-100">
-                    <img src="https:/via.placeholder.com/100" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a short card.</p>
-                    </div>
-                  </div>
-                </div>
+    <div class="container-fluid padding">
+    <div class="row welcome text center">
+      <div class="col-12">
+        <h2 class="display-4">Portfolio</h2>
+        <hr>
+      </div>
+    </div>
+    </div>
 
-                <!-- Card with picture and caption #3 -->
-                <div class="col mb-3">
-                  <div class="card h-100">
-                    <img src="https:/via.placeholder.com/100" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                    </div>
-                  </div>
-                </div>
+    <div class="container-fluid padding">
+      <div class="row padding">
 
-                <!-- Card with picture and caption #4 -->
-                <div class="col mb-3">
-                  <div class="card h-100">
-                    <img src="https:/via.placeholder.com/100" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Card with picture and caption #5 -->
-                <div class="col mb-3">
-                  <div class="card h-100">
-                    <img src="https:/via.placeholder.com/100" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Card with picture and caption #6 -->
-                <div class="col mb-3">
-                  <div class="card h-100">
-                    <img src="https:/via.placeholder.com/100" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="https:/via.placeholder.com/100" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a short card.</p>
+            </div>
           </div>
         </div>
+
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="https:/via.placeholder.com/100" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a short card.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="https:/via.placeholder.com/100" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a short card.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row padding">
+
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="https:/via.placeholder.com/100" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a short card.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="https:/via.placeholder.com/100" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a short card.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="https:/via.placeholder.com/100" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a short card.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      </div>
 
     </div>
 
