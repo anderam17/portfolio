@@ -1,4 +1,21 @@
 a {
-    color: black !important;
+    color: black;
+}
+.navbar a {
+    font-size: 25px;
+}
+.contact {
+    margin: 50px;
 }
 
+.card-header {
+    font-size: 30px;
+}
+body{
+ background-image: url(https://image.shutterstock.com/image-illustration/abstract-zebra-earth-tone-striped-260nw-1220060509.jpg);
+ background-size: cover;
+}
+
+/* @media screen and (max-width: 770px) {
+
+} */
