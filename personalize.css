@@ -4,6 +4,10 @@ a {
 .navbar a {
     font-size: 25px;
 }
+
+.navbar-dark {
+ background: olive;
+}
 .contact {
     margin: 50px;
 }
