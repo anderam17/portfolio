@@ -48,38 +48,64 @@
       </div>
     </nav>
 
-    <!-- Bootstrap code for a card that has a header and body section -->
-    <div class="card contact text-white bg-info mb-3" style="max-width: 30rem;">
-        <!-- Header -->
-        <div class="card-header">Contact Me</div>
-        
-        <!-- Card Body -->
-        <div class="card-body">
-            <form>
-                <!-- This section allows a user to enter their name -->
-                <div class="form-group">
-                    <label for="exampleInputName1">Name</label>
-                    <input type="text" class="form-control">
-                </div>
 
-                <!-- This section allows a user to enter an email address -->
-                <div class="form-group">
-                  <label for="exampleInputEmail1">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                </div>
+<div class="container">
 
-                <!-- This section allows a user to enter a message -->
-                <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Message</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  <div class="row contact-row">
+
+    <div class="col-md-6">
+      <!-- Bootstrap code for a card that has a header and body section -->
+      <div class="card contact text-white bg-info mb-3" style="max-width: 30rem;">
+          <!-- Header -->
+          <div class="card-header"">Contact Me</div>
+          
+          <!-- Card Body -->
+          <div class="card-body">
+              <form>
+                  <!-- This section allows a user to enter their name -->
+                  <div class="form-group">
+                      <label for="exampleInputName1">Name</label>
+                      <input type="text" class="form-control">
                   </div>
-                
-                  <!-- Submit button -->
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </form>
-
+      
+                  <!-- This section allows a user to enter an email address -->
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  </div>
+      
+                  <!-- This section allows a user to enter a message -->
+                  <div class="form-group">
+                      <label for="exampleFormControlTextarea1">Message</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                  
+                    <!-- Submit button -->
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+      
+          </div>
         </div>
-      </div>
+    </div>
+    <div class="col-md-6">
+          <div class="card" id="contact-info">
+            <div class="card-title" >
+              <h1 class="card-title" style="color:black;">Contact Information:</h1>
+            </div>
+            <div class="card-body" id="contact-list">
+              <ul class="list-group">
+                <li class="list-group-item list-group-item-warning">Email: </br>allana.anderson17@gmail.com</li>
+                <li class="list-group-item list-group-item-info">Phone: </br>(615) 500-6222</li>
+                <li class="list-group-item"><a class="list-group-item list-group-item-action list-group-item-success" href="https://github.com/anderam17">GitHub</a></li>
+                <li class="list-group-item"><a class="list-group-item list-group-item-action list-group-item-danger" href="https://www.linkedin.com/in/allana-anderson-8b96aa126/">LinkedIn</a></li>
+              </ul>
+            </div>
+          </div>
+
+    </div>
+  </div>
+</div>
+
     
 </body>
 </html>

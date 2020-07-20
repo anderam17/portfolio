@@ -12,18 +12,38 @@ a {
     margin: 20px;
 }
 
+
 .bg-light {
-    background-color: rgba(128, 128, 0, 0.589) !important;
+    background-color: rgba(128, 30, 0, 0.589) !important;
 }
 
 .card-header {
     font-size: 30px;
 }
 body{
- background-image: url(https://image.shutterstock.com/image-illustration/abstract-zebra-earth-tone-striped-260nw-1220060509.jpg);
+ background-image: url("portfolio_pictures/background.JPG");
  background-size: cover;
 }
+#contact-info, #resume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    background: rgba(90, 28, 90, 0.349);
+}
 
-/* @media screen and (max-width: 770px) {
+#resume{
+    width: 30%;
+    
+}
 
-} */
+#contact-list{
+font-size: 18px;
+}
+
+.contact-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
