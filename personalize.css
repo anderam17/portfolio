@@ -21,7 +21,7 @@ a {
     font-size: 30px;
 }
 body{
- background-image: url("portfolio_pictures/background.JPG");
+ background-image: url("portfolio_pictures/background.jpg");
  background-size: cover;
 }
 #contact-info, #resume {
