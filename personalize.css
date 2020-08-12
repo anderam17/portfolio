@@ -1,8 +1,12 @@
-a {
-    color: black;
-}
-.navbar a {
+body{
+    background-image: url("portfolio_pictures/background.jpg");
+    background-size: cover;
+    color: rgb(241, 234, 234);
+   }
+
+.navbar, h1, .pages {
     font-size: 25px;
+    color: aliceblue !important;
 }
 
 .contact {
@@ -14,23 +18,27 @@ a {
 
 
 .bg-light {
-    background-color: rgba(128, 30, 0, 0.589) !important;
+    background-color: rgba(14, 13, 13, 0.6) !important;
 }
 
 .card-header {
     font-size: 30px;
 }
-body{
- background-image: url("portfolio_pictures/background.jpg");
- background-size: cover;
+
+.card {
+    background: rgba(56, 55, 55, 0.75) !important;
 }
+
 #contact-info, #resume {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     padding-top: 20px;
-    background: rgba(90, 28, 90, 0.349);
+    background-color: rgba(212, 212, 212, 0.6) !important;
+}
+.display-4 {
+    color: aliceblue;
 }
 
 #resume{
