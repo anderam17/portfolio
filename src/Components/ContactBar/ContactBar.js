@@ -11,8 +11,7 @@ function ContactBar() {
           <div className="contact-bar">
               <Button id="linkedin" href="https://www.linkedin.com/in/allana-anderson-8b96aa126/" title="LinkedIn" faIcon={faLinkedin} />
               <Button id="github" href="https://github.com/anderam17" title="Github" faIcon={faGithubSquare} />
-              {/* //! going to have to do something different for email */}
-              <Button id="email" href="allana.anderson17@gmail.com" title="Email" faIcon={faEnvelopeSquare} />
+              {/* <Button id="email" href="allana.anderson17@gmail.com" title="Email" faIcon={faEnvelopeSquare} /> */}
               <Button id="resume" href={resume} title="Resume" faIcon={faFilePdf} />
           </div>
       </div>

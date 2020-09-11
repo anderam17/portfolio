@@ -1,9 +1,10 @@
 import React from "react";
+import "./NavBar.css"
 
 function NavBar() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar sticky-top navbar-expand-lg navbar bg" id="nav-bar-portfolio">
         <button
           className="navbar-toggler"
           type="button"
@@ -17,13 +18,13 @@ function NavBar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
-            <a className="nav-link active" href="#">
-              Home <span className="sr-only">(current)</span>
+            <a className="nav-link active" href="#about-me">
+              About <span className="sr-only">(current)</span>
             </a>
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="#project-container">
               Projects
             </a>
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="#contact-me">
               Contact
             </a>
           </div>

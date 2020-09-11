@@ -8,7 +8,7 @@ function ProjectsContainer() {
   return (
     <>
       <SectionHeading title="Projects" id="project-container"/>
-      <div className="container" id="project-cards">
+      <div id="project-cards">
       {projects.map((project) => (
         <ProjectCard
           picture={require('../../images' + project.picture)}
