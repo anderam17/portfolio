@@ -2,12 +2,21 @@ import React from "react";
 import ProjectCard from "../ProjectCard/ProjectCard";
 import SectionHeading from "../SectionHeading/SectionHeading";
 import picture from "../../images/moxie.png";
+import projects from "../../projects.json";
 
 function ProjectsContainer() {
   return (
     <>
-    <SectionHeading title="Projects"/>
-      <ProjectCard picture={picture} title="Moxie" description="This is a website designed for teachers to help them better manage their classroom and students." deployedSite="https://fathomless-hamlet-31566.herokuapp.com/" github="https://github.com/anderam17/moxie"/>
+      <SectionHeading title="Projects" />
+      {projects.map((project) => (
+        <ProjectCard
+          picture={require('../../images' + project.picture)}
+          title={project.title}
+          description={project.description}
+          deployedSite={project.deployedSite}
+          github={project.github}
+        />
+      ))}
     </>
   );
 }
