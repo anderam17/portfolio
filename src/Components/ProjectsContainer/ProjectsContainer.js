@@ -2,11 +2,13 @@ import React from "react";
 import ProjectCard from "../ProjectCard/ProjectCard";
 import SectionHeading from "../SectionHeading/SectionHeading";
 import projects from "../../projects.json";
+import "./ProjectsContainer.css"
 
 function ProjectsContainer() {
   return (
     <>
-      <SectionHeading title="Projects" />
+      <SectionHeading title="Projects" id="project-container"/>
+      <div className="container" id="project-cards">
       {projects.map((project) => (
         <ProjectCard
           picture={require('../../images' + project.picture)}
@@ -16,6 +18,7 @@ function ProjectsContainer() {
           github={project.github}
         />
       ))}
+      </div>
     </>
   );
 }

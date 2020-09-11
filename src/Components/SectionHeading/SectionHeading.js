@@ -1,14 +1,11 @@
 import React from "react";
 
-function SectionHeading({title, paragraph}) {
+function SectionHeading({title, id}) {
   return (
     <>
-      <div className="jumbotron jumbotron-fluid">
+      <div className="jumbotron jumbotron-fluid" id={id}>
         <div className="container">
           <h1 className="display-4">{title}</h1>
-          <p className="lead">
-            {paragraph}
-          </p>
         </div>
       </div>
     </>

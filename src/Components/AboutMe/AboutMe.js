@@ -9,6 +9,7 @@ function AboutMe() {
         <>
         <SectionHeading 
         title="Allana Anderson"
+        id="about-me"
         />
         <div className="container">
             <div className="row">

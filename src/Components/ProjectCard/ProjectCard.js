@@ -3,8 +3,8 @@ import React from "react";
 function ProjectCard({ picture, title, description, deployedSite, github }) {
   return (
     <>
-      <div class="col-md-4">
-        <div class="card h-100">
+      <div class="col-md-4" id="card-column">
+        <div class="card h-100" id="project-card">
           <img
             src={picture}
             class="card-img-top"
