@@ -1,7 +1,6 @@
 import React from "react";
 import ProjectCard from "../ProjectCard/ProjectCard";
 import SectionHeading from "../SectionHeading/SectionHeading";
-import picture from "../../images/moxie.png";
 import projects from "../../projects.json";
 
 function ProjectsContainer() {
