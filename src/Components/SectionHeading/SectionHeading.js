@@ -1,7 +1,5 @@
 import React from "react";
 import "./SectionHeading.css";
-//center or bold or both
-// Exciting Fonts?!
 
 function SectionHeading({title, id}) {
   return (
