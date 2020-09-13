@@ -3,13 +3,15 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelopeSquare, faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import {faLinkedin, faGithubSquare} from "@fortawesome/free-brands-svg-icons";
 
-function ContactBar({title, href, id, faIcon}) {
+//no outline + make icons bigger
+//label resume?
+function Button({title, href, id, faIcon}) {
   return (
-    <><a href={href}>
-      <button id={id} type="button" className="btn btn-outline-info">  <FontAwesomeIcon transform="grow-20" icon={faIcon}/></button>
+    <><a href={href} target="_blank">
+    <FontAwesomeIcon transform="grow-40" icon={faIcon} style={{color:"#090541"}}/>
     </a>
     </>
   );
 }
 
-export default ContactBar;
+export default Button;

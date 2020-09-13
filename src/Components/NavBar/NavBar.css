@@ -1,10 +1,10 @@
 #nav-bar-portfolio{
-    height: 100px;
-    background: rgba(1, 27, 114, 0.5);
+    height: 75px;
+    background: rgb(75, 87, 124);
     /* background-image: url("../../images/lined-paper.png"); */
 }
 a {
     font-size: 25px;
-    color: rgb(7, 7, 7) !important;
+    color: rgb(246, 242, 242) !important;
 
 }

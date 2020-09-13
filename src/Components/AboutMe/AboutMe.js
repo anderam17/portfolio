@@ -8,10 +8,10 @@ function AboutMe() {
     return(
         <>
         <SectionHeading 
-        title="Allana Anderson"
+        title="About Me"
         id="about-me"
         />
-        <div className="container">
+        <div className="container" id="about-me-container">
             <div className="row">
                 <div className="col-md-4">
                     <img src={headshot} alt="Allana headshot"/>

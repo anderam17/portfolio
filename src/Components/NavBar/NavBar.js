@@ -1,6 +1,8 @@
 import React from "react";
 import "./NavBar.css"
 
+//move nav bar words to right side
+//make solid + thinner
 function NavBar() {
   return (
     <>

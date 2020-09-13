@@ -1,6 +1,7 @@
 p {
     line-height: 30px;
     font-size: 25px;
+    font-family: 'PT Sans', sans-serif;
 }
 #contact-bar-row {
     display: flex;
@@ -10,4 +11,7 @@ p {
 .btn {
     margin: 0 40px;
     width: 200px;
+}
+#about-me-container{
+    margin-bottom: 20px;
 }
