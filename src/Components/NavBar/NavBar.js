@@ -7,6 +7,8 @@ function NavBar() {
   return (
     <>
       <nav className="navbar sticky-top navbar-expand-lg navbar bg" id="nav-bar-portfolio">
+      <div class="container-fluid">
+      <h1 id="navbar-h1">Allana Anderson</h1>
         <button
           className="navbar-toggler"
           type="button"
@@ -18,19 +20,25 @@ function NavBar() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div className="navbar-nav">
-            <a className="nav-link active" href="#about-me">
-              About <span className="sr-only">(current)</span>
-            </a>
-            <a className="nav-link" href="#project-container">
-              Projects
-            </a>
-            <a className="nav-link" href="#contact-me">
-              Contact
-            </a>
-          </div>
-        </div>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link pages" href="#about-me">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link pages" href="#project-container">Projects</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link pages" href="#contact-me">Contacte</a>
+            </li>
+          </ul>
+        </div> 
+
+      </div>
       </nav>
     </>
   );
