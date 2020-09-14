@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import * as emailjs from "emailjs-com";
-import { SMTPClient } from "emailjs";
 import SectionHeading from "../SectionHeading/SectionHeading";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelopeSquare} from "@fortawesome/free-solid-svg-icons";
+import "./ContactMe.css";
 
 function ContactMe() {
   const [emailState, setEmailState] = useState({
@@ -54,14 +56,16 @@ function ContactMe() {
     <>
       <SectionHeading title="Contact Me" id="contact-me" />
       {/* //form layout that always requires a name, email, and message */}
+      <div className="container">
       <form className="test-mailing" id="email-me-form" onSubmit={handleSubmit}>
-        <div style={{ fontSize: "1.2rem" }}>
-          <h6>You can also send me an email directly from here</h6>
+        <div id="email-form" style={{ fontSize: "1.2rem" }}>
+          <h3>Feel free to reach out. Enter your name, email, and message below! </h3>
           <div>
             <label htmlFor="name">Name</label>
             <input
               className="form-control email-inputs"
               name="name"
+              placeholder="Your Name Here"
               type="text"
               id="name"
               value={emailState.name}
@@ -76,6 +80,7 @@ function ContactMe() {
               name="email"
               type="text"
               id="email"
+              placeholder="Your Email Here"
               value={emailState.email}
               onChange={emailChange}
               required
@@ -88,23 +93,22 @@ function ContactMe() {
               name="message"
               value={emailState.message}
               onChange={messageChange}
-              placeholder="Put your message here"
+              placeholder="Your Message Here"
               required
               className="email-text-area form-control"
               rows="15"
               cols="20"
             />
           </div>
-          <input
-            type="submit"
-            value="Submit"
-            className="btn btn-outline-light"
-          />
-          <button type="submit" onClick={handleSubmit}>
-            Submit
+
+          <div className="btn-row">
+          <button id="send-email-btn" type="button" class="btn btn-info" onClick={handleSubmit}>
+              SEND
           </button>
+          </div>
         </div>
       </form>
+      </div>
     </>
   );
 }
