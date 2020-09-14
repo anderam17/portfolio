@@ -1,17 +1,17 @@
 #nav-bar-portfolio{
-    height: 75px;
+    height: 70px;
     background: rgb(75, 87, 124);
     display: flex;
     justify-content: flex-end;
 }
 a {
-    font-size: 25px;
+    font-size: 22px;
     color: rgb(246, 242, 242) !important;
-    font-family: 'Reem Kufi', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 #navbar-h1 {
     font-family: 'Sue Ellen Francisco', cursive;
     color: rgb(246, 242, 242) !important;
-    line-height: 50px;
-    font-size: 45px;
+    line-height: 45px;
+    font-size: 40px;
 }

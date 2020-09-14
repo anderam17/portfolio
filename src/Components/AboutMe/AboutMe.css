@@ -1,7 +1,7 @@
 p {
-    line-height: 35px;
-    font-size: 30px;
-    font-family: 'Cormorant Garamond', serif;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
 }
 #contact-bar-row {
     display: flex;
@@ -14,8 +14,9 @@ p {
 }
 #about-me-container{
     width: 80%;
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;  */
     margin: auto auto 20px auto;
+}
+img {
+    width: 250px;
+    height: 250px;
 }

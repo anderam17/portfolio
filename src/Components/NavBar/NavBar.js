@@ -33,7 +33,7 @@ function NavBar() {
             </li>
 
             <li class="nav-item">
-              <a class="nav-link pages" href="#contact-me">Contacte</a>
+              <a class="nav-link pages" href="#contact-me">Contact</a>
             </li>
           </ul>
         </div> 
