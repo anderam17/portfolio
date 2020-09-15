@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import * as emailjs from "emailjs-com";
 import SectionHeading from "../SectionHeading/SectionHeading";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelopeSquare} from "@fortawesome/free-solid-svg-icons";
 import "./ContactMe.css";
 
 function ContactMe() {
