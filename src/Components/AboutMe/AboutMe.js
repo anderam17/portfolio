@@ -21,9 +21,9 @@ function AboutMe() {
                     <br /><br />
                     After graduating from Vanderbilt University, I joined Teach for America for a 2 year commitment working as a teacher in a high needs school. Despite knowing nothing about teaching going in, I put in the effort necessary to lead 5 out of my 6 classes to notable increases in mastering state mathematics standards and after one year, was promoted to be the sole director of the math department. 
                     <br /><br />
-                    After completing my 2 year commitment, I decided to join a coding bootcamp run by Trilogy through the University of Denver where I learned Full Stack Web Development. I am excited to continue to make projects and join a team that I can share my fierce desire to learn and produce excellent tech with! 
+                    After completing my 2 year commitment, I decided to join a coding bootcamp run by Trilogy through the University of Denver where I gained experience in Full Stack Web Development. I am excited to continue to develope projects and join a team where I can share my fierce desire to learn and produce excellent tech! 
                     <br /><br />
-                    Want to see what I have done so far? Check out my LinkedIn, Github, and Resume by clicking on the respective icons below.
+                    If you would like to see projects I have been a part of thus far, check out my LinkedIn, Github, and resume by clicking on the respective icons below.
                     </p>
                 </div>
             </div>
