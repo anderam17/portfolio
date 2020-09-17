@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 //label resume?
 function Button({href, faIcon}) {
   return (
-    <><a href={href} target="_blank">
+    <><a href={href} target="_blank" rel="noopener noreferrer">
     <FontAwesomeIcon transform="grow-30" icon={faIcon} style={{color:"#090541"}}/>
     </a>
     </>
