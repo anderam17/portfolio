@@ -14,10 +14,10 @@ function ProjectCard({ picture, title, description, deployedSite, github }) {
           <div class="card-body">
             <h3 class="card-title">{title}</h3>
             <p class="card-text">{description}</p>
-            <a class="nav-link" href={deployedSite} target="_blank" >
+            <a class="nav-link" href={deployedSite} target="_blank" rel="noopener noreferrer">
               <h5>Check out Deployed Site HERE</h5>
             </a>
-            <a class="nav-link" href={github} target="_blank">
+            <a class="nav-link" href={github} target="_blank" rel="noopener noreferrer">
               <h5>Check out GitHub Repository HERE</h5>
             </a>
           </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "../Button/Button";
-import { faEnvelopeSquare, faFilePdf } from "@fortawesome/free-solid-svg-icons";
+import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import {faLinkedin, faGithubSquare} from "@fortawesome/free-brands-svg-icons";
 import resume from "../../images/resume.pdf";
 import "./ContactBar.css";
