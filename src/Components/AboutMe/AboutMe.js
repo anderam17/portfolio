@@ -12,7 +12,6 @@ function AboutMe() {
         id="about-me"
         />
         <div id="about-me-container">
-            <div id="about-me-row">
                 <div  id="img-col">
                     <img src={headshot} alt="Allana headshot"/>
                 </div>
@@ -26,9 +25,9 @@ function AboutMe() {
                     If you would like to see projects I have been a part of thus far, check out my LinkedIn, Github, and resume by clicking on the respective icons below.
                     </p>
                 </div>
-            </div>
-            <ContactBar />
+           
         </div>
+            <ContactBar />
         </>
     );
 };
