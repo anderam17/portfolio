@@ -31,4 +31,5 @@ img {
 #about-me-row{
     display: flex;
     flex-wrap: nowrap;
+    /* attempt */
 }
