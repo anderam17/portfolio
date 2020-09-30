@@ -17,6 +17,18 @@ p {
     margin: auto auto 20px auto;
 }
 img {
-    width: 250px;
-    height: 250px;
+    width: 330px;
+    height: 330px;
+    margin-right: 50px;
+}
+#img-col {
+    width: 30%;
+
+}
+#paragraph-col {
+    width: 70%;
+}
+#about-me-row{
+    display: flex;
+    flex-wrap: nowrap;
 }
