@@ -12,7 +12,6 @@ function AboutMe() {
         id="about-me"
         />
         <div id="about-me-container">
-            <div id="about-me-row">
                 <div  id="img-col">
                     <img src={headshot} alt="Allana headshot"/>
                 </div>
@@ -28,7 +27,6 @@ function AboutMe() {
                 </div>
             </div>
             <ContactBar />
-        </div>
         </>
     );
 };
