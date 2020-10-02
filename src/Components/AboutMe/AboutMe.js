@@ -27,8 +27,8 @@ function AboutMe() {
                     </p>
                 </div>
             </div>
-            <ContactBar />
         </div>
+            <ContactBar />
         </>
     );
 };

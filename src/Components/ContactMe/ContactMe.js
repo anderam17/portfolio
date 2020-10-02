@@ -100,7 +100,7 @@ function ContactMe() {
           </div>
 
           <div className="btn-row">
-          <button id="send-email-btn" type="button" class="btn btn-info" onClick={handleSubmit}>
+          <button id="send-email-btn" type="button" className="btn btn-info" onClick={handleSubmit}>
               SEND
           </button>
           </div>

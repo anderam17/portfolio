@@ -1,17 +1,36 @@
-#nav-bar-portfolio{
-    height: 70px;
-    background: rgb(75, 87, 124);
-    display: flex;
-    justify-content: flex-end;
+#navbar-h1 {
+  font-family: "Sue Ellen Francisco", cursive;
+  color: rgb(246, 242, 242) !important;
+  line-height: 45px;
+  font-size: 40px;
+  padding: 15px 0 0 15px
 }
+
+.bg-custom-nav{
+    height: 70px;
+    background: #4b577c;
+    color: white;
+}
+.bg-custom-link{
+    height: 70px;
+    background: #4b577c;
+    color: white;
+}
+
 a {
     font-size: 22px;
     color: rgb(246, 242, 242) !important;
     font-family: 'Quicksand', sans-serif;
+    background: #4b577c;
 }
-#navbar-h1 {
-    font-family: 'Sue Ellen Francisco', cursive;
-    color: rgb(246, 242, 242) !important;
-    line-height: 45px;
-    font-size: 40px;
+
+@media screen and (max-width: 991px){
+    a {
+        opacity: .9;
+        display: flex;
+        justify-content: center;
+    }
 }
+
+
+

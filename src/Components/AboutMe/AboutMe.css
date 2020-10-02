@@ -5,7 +5,7 @@ p {
 }
 #contact-bar-row {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     margin-top: 20px;
 }
 .btn {
@@ -31,4 +31,23 @@ img {
 #about-me-row{
     display: flex;
     flex-wrap: nowrap;
+}
+
+
+@media screen and (max-width: 1420px){
+  #about-me-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #about-me-row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #paragraph-col{
+    width: 95%;
+    margin-top: 15px;
+  }
 }
