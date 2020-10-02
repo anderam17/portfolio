@@ -1,0 +1,8 @@
+#project-cards{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto auto 20px auto;
+}
+

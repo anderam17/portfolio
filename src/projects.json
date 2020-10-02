@@ -1,0 +1,44 @@
+[
+{
+    "title": "Moxie",
+    "description": "This is a website designed for teachers to help them better manage their classroom and students.",
+    "picture": "/moxie.png",
+    "deployedSite": "https://fathomless-hamlet-31566.herokuapp.com/",
+    "github": "https://github.com/anderam17/moxie"
+},
+{
+    "title": "Cinema Sips",
+    "description": "This application allows the user to find movies and a drink pairing to match their mood by selecting a mood from the drop-down menu",
+    "picture": "/cinema_sips.png",
+    "deployedSite": "https://hamery93.github.io/Cinema-Sips/#",
+    "github": "https://github.com/hamery93/Cinema-Sips"
+},
+{
+    "title": "Employee Tracker",
+    "description": "This app allows the user to search for an employee by name or filter by name or age in order to quickly access basic information about their coworkers",
+    "picture": "/employee.png",
+    "deployedSite": "https://anderam17.github.io/react-employee-tracker/",
+    "github": "https://github.com/anderam17/react-employee-tracker"
+},
+{
+    "title": "Budget Tracker",
+    "description": "This application allows the user to track income and spending online or offline.",
+    "picture": "/budget.png",
+    "deployedSite": "https://immense-falls-16600.herokuapp.com/",
+    "github": "https://github.com/anderam17/online-or-offline-budget-tracker"
+},
+{
+    "title": "Burger Devourer",
+    "description": "This handlebars app allows the user to enter burgers they would like to devour and then devour them.",
+    "picture": "/burger.png",
+    "deployedSite": "https://agile-eyrie-35548.herokuapp.com/",
+    "github": "https://github.com/anderam17/burger"
+},
+{
+    "title": "Note Taker",
+    "description": "This application allows the user to add, edit, and delete notes by using express, MySQL, and node.",
+    "picture": "/note_taker.png",
+    "deployedSite": "https://immense-plains-80215.herokuapp.com/",
+    "github": "https://github.com/anderam17/note-taker"
+}
+]
