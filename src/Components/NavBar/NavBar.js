@@ -14,9 +14,9 @@ function NavBar() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">
-            <Nav.Link bg="custom-link" href="#about-me">About</Nav.Link>
-            <Nav.Link bg="custom-link" href="#project-container">Projects</Nav.Link>
-            <Nav.Link bg="custom-link" href="#contact-me">Contact</Nav.Link> 
+            <Nav.Link bg="custom-link" className="my-nav-buttons" href="#about-me">About</Nav.Link>
+            <Nav.Link bg="custom-link" className="my-nav-buttons" href="#project-container">Projects</Nav.Link>
+            <Nav.Link bg="custom-link" className="my-nav-buttons" href="#contact-me">Contact</Nav.Link> 
           </Nav>
         </Navbar.Collapse>
       </Navbar>
